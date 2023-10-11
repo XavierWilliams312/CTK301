@@ -1,0 +1,51 @@
+#divexample {
+    color: white;
+    background-color: black;
+
+}
+
+a {
+    color: #ff0000;
+  }
+
+a:link {
+    color: #ff0000;
+  }
+
+  a:hover {
+    color: #ffff00;
+  }
+
+  a:visited {
+    color: #00ff2a;
+  }
+
+  p {
+    color: white;
+    background-color: black;
+  }
+
+  h1 {
+    color: white;
+    background-color: black;
+  }
+
+  h2 {
+    color: white;
+    background-color: black;
+  }
+
+  h3 {
+    color: white;
+    background-color: black;
+  }
+
+  h4 {
+    color: white;
+    background-color: black;
+  }
+
+  li {
+    color: white;
+    background-color: black;
+  }
