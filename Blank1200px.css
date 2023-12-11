@@ -1,19 +1,16 @@
-body {
-  background-color: #999999;
+body { background-color: white;
+  background-image: url("d2hd73xxwvaa1.jpg");
 }
 
 #wrapper {
   margin: 24px auto;
   width: 1200px;
-  border: 1px solid black;
   padding: 24px;
-  background-color: bisque;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
 aside {
-  border: 2px solid black;
   grid-column: span 3;
 }
 
@@ -30,11 +27,6 @@ nav ul {
   margin: 0;
  }
 
- nav li {
-  border: 1px solid black;
-
- }
-
  nav li a {
   display:block;
   padding: 24px;
@@ -43,11 +35,22 @@ nav ul {
 
 main {
   grid-column: span 7;
-  border: 2px solid black;
+}
+
+nav li a:hover {
+    padding: 10px;
+    margin: 20px;
+    width: 250px;
+    background-color: #5cdfce73;
+    box-shadow: 10px 10px 10px #000000; /* x, y, blur, color */
+}
+
+
+nav li a {
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 footer {
   grid-column: span 12;
-  border: 2px solid black;
 }
 
